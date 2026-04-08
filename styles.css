@@ -25,6 +25,7 @@ header {
   align-items: center;
   padding: 40px 100px;
   box-shadow: 0 6px 12px 2px rgba(0, 0, 0, 0.12);
+  background-color: white;
 }
 
 .logo {
@@ -49,4 +50,102 @@ header .navigation li a {
   text-decoration: none;
   font-size: 1.5em;
   font-weight: 300;
+}
+
+/*Body Styles*/
+.banner {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://i.postimg.cc/s29LNR86/bg.jpg);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.content {
+  max-width: 900px;
+  text-align: center;
+}
+
+.banner .content h2 {
+  font-size: 5em;
+  color: white;
+}
+
+.banner .content p {
+  font-size: 1.25em;
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #ff0157;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  font-size: 1.5em;
+  margin-top: 40px;
+}
+.about {
+  padding: 80px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.row .col50 {
+  width: 48%;
+}
+
+.imgbx {
+  width: 100%;
+  min-height: 300px;
+}
+.imgbx img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.titleText {
+  font-size: 2em;
+  color: #111;
+  font-weight: 300;
+}
+
+.titleText span {
+  font-weight: 700;
+  color: #ff0157;
+  font-size: 1.5em;
+}
+
+.menu {
+  padding: 80px;
+}
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title span {
+  font-size: 1.5em;
+  color: #ff0157;
+  font-weight: 700;
+}
+
+.menu-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
 }
