@@ -149,3 +149,90 @@ header .navigation li a {
   flex-wrap: wrap;
   margin-top: 40px;
 }
+.menu-content .box {
+  width: 340px;
+  margin: 20px;
+  border: 15px solid #fff;
+  box-shadow: 0 5px 35px lightgray;
+}
+.text {
+  padding: 15px 0 5px;
+  text-align: center;
+}
+.menu-content .box .imgbx {
+  width: 100%;
+  height: 300px;
+}
+.sticky {
+  background: #fff;
+  padding: 10px 100px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.expert {
+  padding: 80px;
+}
+.expert .menu-content .box {
+  width: 250px;
+  margin: 30px;
+  border: 15px solid #fff;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+}
+.testimonial {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://i.postimg.cc/k5dZs5jR/bg2.jpg);
+  background-size: cover;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.white {
+  color: white;
+}
+
+.testimonial .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  max-width: 100%;
+}
+.testimonial .content .box {
+  width: 350px;
+  margin: 20px;
+  padding: 40px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial .content .box img {
+  border-radius: 48%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial .content .box .imgbx {
+  width: 100%;
+  height: 300px;
+}
+
+.text h2 {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #ff0157;
+  font-weight: 600;
+}
+
+.text p {
+  font-style: italic;
+}
